@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13%;
+}
+
+h2 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.desc {
+    color: white;
+    max-width: 100%;
+    margin-left: 4rem;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.countdown ul {
+    display: flex;
+}
+
+.countdown ul li {
+    border-color: 1px solid red;
+    list-style: none;
+    padding: 40px 10px;
+
+
+}
+
+.content {
+    background-color: white;
+
+    width: 120px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.content h3 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(38, 51, 127, 255);
+
+}
+
+.content p {
+    font-size: 16px;
+    text-align: center;
+    color: rgba(38, 51, 127, 255);
+
+}
